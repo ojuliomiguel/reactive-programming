@@ -1,0 +1,37 @@
+{
+  "name": "palavras-mais-usadas",
+  "title": "Palavras mais usadas",
+  "main": "background.js",
+  "version": "0.1.0",
+  "description": "Contador de palavras mais usadas em legendas srt",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service electron:serve",
+    "build": "vue-cli-service electron:build",
+    "lint": "vue-cli-service lint",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.11",
+    "lodash": "^4.17.15",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "electron": "^9.0.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-electron-builder": "~2.0.0-rc.1",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  }
+}
